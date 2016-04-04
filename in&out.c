@@ -31,7 +31,7 @@ int main()
   scanf("%d",&a);
    printf("Enter the number of problems solved\n");
   scanf("%d",&b);
-  if(b>=(a/2))
+  if(b>(a/2))
     printf("IN\n");
   else
     printf("OUT\n");
